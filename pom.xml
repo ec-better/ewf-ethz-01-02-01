@@ -11,7 +11,7 @@
     <version>3.0.1-docker</version>
   </parent>
   <description>ETHZ-01-02-01 Filtered DInSAR interferograms</description>
-  <version>0.1</version>
+  <version>0.2</version>
   <properties>
     <summary>ETHZ-01-03-01 Filtered DInSAR interferograms</summary>
     <description>ETHZ-01-02-01 Filtered DInSAR interferograms</description>
@@ -105,14 +105,10 @@
                 <configuration>
                   <!-- Set here the dependencies installed with 'sudo yum install'-->
                   <requires>
-                    <require>fftw</require>
                     <require>miniconda</require>
-                    <require>OTB</require>
-                    <require>java-1.8.0-openjdk-devel</require>
-                    <require>snap</require>
                   </requires>
                   <postinstallScriptlet combine.self="override">
-                    <script>conda update conda -y &amp;&amp; conda install -y --file /application/dependencies/python/packages.list &amp;&amp; cp /application/notebook/etc/snappy.ini /opt/anaconda/lib/python2.7/site-packages/snappy/snappy.ini</script>
+                    <script>conda update conda -y &amp;&amp; conda install -y --file /application/dependencies/python/packages.list</script>
                   </postinstallScriptlet>
                 </configuration>
               </execution>
