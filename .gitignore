@@ -8,3 +8,4 @@ runc
 *.tif
 *.lut
 application.xml
+*.png
