@@ -10,3 +10,4 @@ runc
 application.xml
 *.png
 *.pkl
+*.properties
