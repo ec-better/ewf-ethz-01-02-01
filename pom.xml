@@ -11,7 +11,7 @@
     <version>2.0.0</version>
   </parent>
   <description>ETHZ-01-02-01 Filtered DInSAR interferograms</description>
-  <version>0.5-SNAPSHOT</version>
+  <version>0.5</version>
   <properties>
     <summary>ETHZ-01-03-01 Filtered DInSAR interferograms</summary>
     <description>ETHZ-01-02-01 Filtered DInSAR interferograms</description>
